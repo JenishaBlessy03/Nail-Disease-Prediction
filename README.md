@@ -6,6 +6,7 @@ Problem Statement :
 
 Nail disorders can indicate both localized and systemic health issues. Early detection and classification through AI-powered image analysis can assist dermatologists and healthcare workers in improving diagnosis and care delivery.
 
+
 The system classifies nail conditions into the following 6 categories:
 
 Acral Lentiginous Melanoma
@@ -19,6 +20,7 @@ Blue Finger
 Clubbing
 
 Pitting
+
 
 Dataset (Kaggle) : nail-disease-detection-dataset
 
