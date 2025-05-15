@@ -9,10 +9,15 @@ Nail disorders can indicate both localized and systemic health issues. Early det
 The system classifies nail conditions into the following 6 categories:
 
 Acral Lentiginous Melanoma
-Healthy Nail
+
+Healthy Nail  
+
 Onychogryphosis
+
 Blue Finger
+
 Clubbing
+
 Pitting
 
 Dataset (Kaggle) : nail-disease-detection-dataset
