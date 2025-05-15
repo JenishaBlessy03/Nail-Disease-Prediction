@@ -50,12 +50,6 @@ Robust to image orientation and lighting
 Practical for real-time dermatological use
 Includes basic preventive guidance for patients
 
-Model Architecture :
-
-Base Model: DenseNet121 (pretrained on ImageNet)
-Custom Head: Fully Connected Layers + Softmax (6 classes)
-Input Preprocessing: OpenCV – resize, normalize, color balance
-
 Prediction Flow :
 
 1. User uploads image via browser
