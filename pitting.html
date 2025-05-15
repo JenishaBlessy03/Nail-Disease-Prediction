@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Precautions - Nail Pitting{% endblock %}
+
+{% block content %}
+<div class="container pitting-precautions">
+    <h2 class="section-heading">Precautionary Steps for Nail Pitting</h2>
+    <p class="section-subtext">
+        Nail pitting may indicate skin or autoimmune disorders. Manage it with the following care tips.
+    </p>
+
+    <div class="card-grid">
+        <div class="precaution-card">
+            <div class="icon">🧼</div>
+            <h3>Clean & Dry Nails</h3>
+            <p>Maintain proper nail hygiene to prevent infections and keep nails healthy.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">💅</div>
+            <h3>Moisturize Regularly</h3>
+            <p>Use nail and hand moisturizers to reduce dryness and flaking.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🌿</div>
+            <h3>Avoid Harsh Chemicals</h3>
+            <p>Minimize contact with irritants in detergents and nail products.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🧑‍⚕️</div>
+            <h3>Seek Diagnosis</h3>
+            <p>Consult a dermatologist if pitting persists or is linked to other skin issues.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🥗</div>
+            <h3>Balanced Nutrition</h3>
+            <p>Eat a nutrient-rich diet to support the structure and growth of nails.</p>
+        </div>
+    </div>
+
+    <div class="alert-box">
+        ✅ Nail pitting could indicate deeper conditions — don’t ignore recurring symptoms.
+    </div>
+
+    <div class="btn-container">
+        <a href="{{ url_for('home') }}" class="btn btn-primary">🏠 Home</a>
+        <a href="{{ url_for('prediction') }}" class="btn btn-secondary">🔁 New Prediction</a>
+    </div>
+</div>
+{% endblock %}
+
+

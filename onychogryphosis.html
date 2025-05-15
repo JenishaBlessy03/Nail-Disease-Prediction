@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Precautions - Onychogryphosis{% endblock %}
+
+{% block content %}
+<div class="container onychogryphosis-precautions">
+    <h2 class="section-heading">Precautionary Steps for Onychogryphosis</h2>
+    <p class="section-subtext">
+        Onychogryphosis, or ram's horn nails, causes nails to thicken and curve. These precautions help manage and prevent the condition.
+    </p>
+
+    <div class="card-grid">
+        <div class="precaution-card">
+            <div class="icon">🦵</div>
+            <h3>Regular Trimming</h3>
+            <p>Keep nails trimmed frequently to prevent abnormal thickening and distortion.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🩺</div>
+            <h3>Podiatrist Care</h3>
+            <p>Visit a foot specialist for safe trimming and monitoring of nail growth.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🧼</div>
+            <h3>Foot Hygiene</h3>
+            <p>Wash and dry feet properly to avoid fungal and bacterial infections.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">👞</div>
+            <h3>Comfortable Footwear</h3>
+            <p>Wear well-fitting shoes to reduce pressure and trauma on toenails.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🥗</div>
+            <h3>Balanced Diet</h3>
+            <p>Include essential nutrients and vitamins that support healthy nail growth.</p>
+        </div>
+    </div>
+
+    <div class="alert-box">
+        ✅ Early attention and proper care can prevent complications. Don’t ignore changes in your nails.
+    </div>
+
+    <div class="btn-container">
+        <a href="{{ url_for('home') }}" class="btn btn-primary">🏠 Home</a>
+        <a href="{{ url_for('prediction') }}" class="btn btn-secondary">🔁 New Prediction</a>
+    </div>
+</div>
+{% endblock %}
+

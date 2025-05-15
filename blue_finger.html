@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Precautions - Blue Finger Syndrome{% endblock %}
+
+{% block content %}
+<div class="container blue-finger-precautions">
+    <h2 class="section-heading">Precautionary Steps for Blue Finger Syndrome</h2>
+    <p class="section-subtext">
+        Blue Finger Syndrome occurs due to poor circulation. Here are some smart precautions to help manage it effectively.
+    </p>
+
+    <div class="card-grid">
+        <div class="precaution-card">
+            <div class="icon">🧊</div>
+            <h3>Keep Hands Warm</h3>
+            <p>Protect your hands in cold weather to prevent blood vessel constriction and discoloration.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🏃‍♂️</div>
+            <h3>Stay Active</h3>
+            <p>Exercise regularly to boost circulation and maintain healthy blood flow to extremities.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">💨</div>
+            <h3>Avoid Smoking & Caffeine</h3>
+            <p>Limit nicotine and caffeine intake, as both can constrict blood vessels and worsen symptoms.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">💊</div>
+            <h3>Consult a Doctor</h3>
+            <p>If symptoms persist or worsen, seek medical advice for any underlying circulatory disorders.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🛀</div>
+            <h3>Warm Water Soaks</h3>
+            <p>Soaking your hands in warm water can improve blood flow and reduce discoloration.</p>
+        </div>
+    </div>
+
+    <div class="alert-box">
+        ✅ Taking care of your circulation can prevent complications. Monitor your symptoms and act early.
+    </div>
+
+    <div class="btn-container">
+        <a href="{{ url_for('home') }}" class="btn btn-primary">🏠 Home</a>
+        <a href="{{ url_for('prediction') }}" class="btn btn-secondary">🔁 New Prediction</a>
+    </div>
+</div>
+{% endblock %}
+
+

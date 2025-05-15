@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Precautions - Nail Clubbing{% endblock %}
+
+{% block content %}
+<div class="container clubbing-precautions">
+    <h2 class="section-heading">Precautionary Steps for Nail Clubbing</h2>
+    <p class="section-subtext">
+        Nail clubbing can signal serious health conditions. Early steps can help manage associated risks.
+    </p>
+
+    <div class="card-grid">
+        <div class="precaution-card">
+            <div class="icon">💨</div>
+            <h3>Quit Smoking</h3>
+            <p>Eliminate tobacco to lower the chances of lung and heart diseases.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🩺</div>
+            <h3>Regular Checkups</h3>
+            <p>Get medical screenings to detect any underlying health issues early.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🥗</div>
+            <h3>Nutritious Diet</h3>
+            <p>Eat a variety of vitamins and minerals to promote overall wellness.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🏃‍♂️</div>
+            <h3>Stay Active</h3>
+            <p>Regular exercise improves oxygen supply and circulation in the body.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🧑‍⚕️</div>
+            <h3>Medical Advice</h3>
+            <p>If clubbing gets worse, consult a doctor for in-depth diagnosis and care.</p>
+        </div>
+    </div>
+
+    <div class="alert-box">
+        ✅ Nail changes are early signals. Take charge of your health by acting promptly.
+    </div>
+
+    <div class="btn-container">
+        <a href="{{ url_for('home') }}" class="btn btn-primary">🏠 Home</a>
+        <a href="{{ url_for('prediction') }}" class="btn btn-secondary">🔁 New Prediction</a>
+    </div>
+</div>
+{% endblock %}

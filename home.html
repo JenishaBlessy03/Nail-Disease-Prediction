@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome - Nail Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Human Nail Disease Detection</h1>
+    </div>
+</header>
+
+<main>
+    <div class="home-container">
+        <h2>Empowering Health Through AI</h2>
+        <p class="home-quote">"Your nails can tell a lot about your health. Let AI guide you towards early detection and better care!"</p>
+
+        <p class="home-text">Experience the future of dermatology with our cutting-edge AI-powered nail disease detection system.</p>
+
+        <div class="button-group">
+            <a href="{{ url_for('user') }}" class="btn btn-start">Get Started 🚀</a>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

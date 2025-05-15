@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Precautions - Acral Lentiginous Melanoma{% endblock %}
+
+{% block content %}
+<div class="container melanoma-precautions">
+    <h2 class="section-heading">Precautionary Steps for Acral Lentiginous Melanoma</h2>
+    <p class="section-subtext">
+        Protect yourself from this rare form of skin cancer with the following smart and simple precautions.
+    </p>
+
+    <div class="card-grid">
+        <div class="precaution-card">
+            <div class="icon">🔍</div>
+            <h3>Regular Self-Check</h3>
+            <p>Examine your hands, feet, and under your nails for dark streaks or unusual discoloration.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">👩‍⚕️</div>
+            <h3>Early Consultation</h3>
+            <p>See a dermatologist immediately if you notice suspicious spots or skin changes.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🌞</div>
+            <h3>Sunscreen Use</h3>
+            <p>Apply SPF to all exposed skin — including hands, feet, and nail beds — to reduce UV risk.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🚫</div>
+            <h3>Limit UV Exposure</h3>
+            <p>Avoid tanning beds and excessive sunbathing to protect sensitive areas.</p>
+        </div>
+
+        <div class="precaution-card">
+            <div class="icon">🧤</div>
+            <h3>Hand & Foot Care</h3>
+            <p>Wear gloves when handling chemicals and moisturize regularly to prevent skin damage.</p>
+        </div>
+    </div>
+
+    <div class="alert-box">
+        ✅ Taking precautions early can make a life-saving difference. Stay informed, stay safe.
+    </div>
+
+    <div class="btn-container">
+        <a href="{{ url_for('home') }}" class="btn btn-primary">🏠 Home</a>
+        <a href="{{ url_for('prediction') }}" class="btn btn-secondary">🔁 New Prediction</a>
+    </div>
+</div>
+{% endblock %}
+
